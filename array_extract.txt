@@ -1,0 +1,6 @@
+Calendar_war
+DefaultApplication
+ivtApp
+jmstest_war
+query
+sample_war
