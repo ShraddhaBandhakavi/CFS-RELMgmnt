@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="SANDEEP238" id="0" name="SampleTestSuite" package="Test" skipped="0" tests="4" time="103.878" timestamp="2015-06-22T08:31:58">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="lib" value="C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140\lib" />
+
+          <property name="ant.file.Demo_Project" value="C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140\build.xml" />
+
+          <property name="os.name" value="Windows Server 2008 R2" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_71\jre\classes" />
+
+          <property name="ant.file.type.Demo_Project" value="file" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\apache-ant-1.9.4" />
+
+          <property name="java.runtime.version" value="1.7.0_71-b14" />
+
+          <property name="user.name" value="Administrator" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_71\jre\bin" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="ant.project.name" value="Demo_Project" />
+
+          <property name="java.version" value="1.7.0_71" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="bin" value="C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140\bin" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_71\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="src" value="C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140\src" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_71\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140\build.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="report-dir" value="C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140/html-report" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="24.71-b01" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\apache-ant-1.9.4\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Administrator" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_71\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_71\bin;C:\csvn\bin\;C:\csvn\Python25\;C:\Program Files\IBM\WebSphere MQ\java\lib;C:\Program Files\IBM\WebSphere MQ\java\lib64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft\Web Platform Installer\;c:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\apache-maven-3.2.5-bin\apache-maven-3.2.5\bin;C:\Program Files\IBM\WebSphere MQ\bin64;C:\Program Files\IBM\WebSphere MQ\bin;C:\Program Files\IBM\WebSphere MQ\tools\c\samples\bin;C:\apache-ant-1.9.4/bin;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner Test.SampleTestSuite skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140\test-output\Junit\TEST-Test.SampleTestSuite.xml crashfile=C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140\junitvmwatcher7501797588968619549.properties propsfile=C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140\junit2357572383535252237.properties" />
+
+          <property name="java.class.path" value="C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140\lib\hamcrest-core-1.3.jar;C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140\lib\junit-4.11.jar;C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140\lib\selenium-htmlunit-driver-2.9.0.jar;C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140\lib\selenium-java-2.43.1.jar;C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140\lib\selenium-server-standalone-2.44.0.jar;C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140\bin;C:\Program Files\IBM\WebSphere MQ\java\lib\com.ibm.mqjms.jar;C:\Program Files\IBM\WebSphere MQ\java\lib\com.ibm.mq.jar;C:\Program Files\Java\jdk1.7.0_71;C:\Users\Administrator\Desktop\CounterWebAppSeleniumTest\lib\selenium-server-standalone-2.44.0.jar;C:\Users\Administrator\Desktop\CounterWebAppSeleniumTest\lib\selenium-java-2.43.1.jar;C:\Users\Administrator\Desktop\CounterWebAppSeleniumTest\lib\junit-4.11.jar;C:\apache-ant-1.9.4\lib\ant-launcher.jar;C:\apache-ant-1.9.4\lib\ant.jar;C:\apache-ant-1.9.4\lib\ant-junit.jar;C:\apache-ant-1.9.4\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\2\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_71\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140" />
+
+          <property name="junit-xml-dir" value="C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140/test-output/Junit" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="C:\Users\Administrator\Desktop\EmployeePortal_SeleniumTests140" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="C:\apache-ant-1.9.4\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="Test.ChromeTest_LoginUser" name="login_chromebrowser" time="44.824" />
+
+      <testcase classname="Test.ChromeTest_RegisterUser" name="register_chromebrowser" time="23.679" />
+
+      <testcase classname="Test.ChromeTest_LoginNewUser" name="login_newuser_chromebrowser" time="20.88" />
+
+      <testcase classname="Test.ChromeTest_ForgotPassword" name="login_chromebrowser" time="14.244">
+          <error message="no such element&#xa;  (Session info: chrome=43.0.2357.124)&#xa;  (Driver info: chromedriver=2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 59 milliseconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:02:37&apos;&#xa;System info: host: &apos;SANDEEP238&apos;, ip: &apos;10.132.18.238&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_71&apos;&#xa;Session ID: 19169087f3aa6f67d5dfbecbab35325e&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir3512_19066}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=43.0.2357.124, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=43.0.2357.124)
+  (Driver info: chromedriver=2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 59 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:02:37&apos;
+System info: host: &apos;SANDEEP238&apos;, ip: &apos;10.132.18.238&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_71&apos;
+Session ID: 19169087f3aa6f67d5dfbecbab35325e
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\2\scoped_dir3512_19066}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=43.0.2357.124, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at Test.ChromeTest_ForgotPassword.login_chromebrowser(ChromeTest_ForgotPassword.java:29)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[Page title is: http://10.132.18.140:8085/hrapp-1.0/success.jsp
+Page title is: JSP Example
+Page title is: http://10.132.18.140:8085/hrapp-1.0/welcome.jsp
+Page title is: http://10.132.18.140:8085/hrapp-1.0/success.jsp
+]]></system-out>
+
+      <system-err><![CDATA[Starting ChromeDriver 2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7) on port 48523
+Only local connections are allowed.
+Starting ChromeDriver 2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7) on port 3481
+Only local connections are allowed.
+Starting ChromeDriver 2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7) on port 29374
+Only local connections are allowed.
+Starting ChromeDriver 2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7) on port 24459
+Only local connections are allowed.
+]]></system-err>
+
+  </testsuite>
+</testsuites>

@@ -1,0 +1,85 @@
+<project name="Demo_Project" default="all" basedir=".">
+  <!-- Sets the property variables to point to respective directories -->
+  <property name="junit-xml-dir" value="${basedir}/test-output/Junit"/>
+  <property name="report-dir" value="${basedir}/html-report" />
+  <property name="src" location="src"/>
+  <property name="bin"  location="bin"/>
+  <property name="lib"  location="lib"/>
+
+  <path id="lib.path.ref">
+    <fileset dir="lib" includes="**/*.jar"/>
+	<pathelement path="${basedir}/${bin}" />
+  </path>
+
+	<target name="clean">
+		<delete dir="${bin}" />
+		<delete dir="${junit-xml-dir}" />
+		<delete dir="${report-dir}"/>
+	</target>
+
+	<target name="init">
+		<mkdir dir="${bin}" />
+		<mkdir dir="${junit-xml-dir}" />
+		<mkdir dir="${report-dir}" />
+		<mkdir dir="${report-dir}/Junit" />
+	</target>
+
+  <target name="compile" depends="clean, init" description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac debug="true" 
+	   srcdir="${src}" 
+	   destdir="${bin}"
+		source="1.6"
+		target="1.6">
+	   <compilerarg value="-Xbootclasspath/p:${toString:lib.path.ref}"/>
+	   </javac>
+  </target>
+
+	<target name="ff-junit-execution">
+		<junit printsummary="yes" haltonfailure="yes" fork="yes">
+			<classpath refid="lib.path.ref" />
+			<test name="Test.SampleFireFoxTest" haltonfailure="no" todir="${junit-xml-dir}" >
+				<formatter type="xml"/>
+			</test>
+		</junit>
+	</target>
+
+	<target name="ie-junit-execution">
+		<junit printsummary="yes" haltonfailure="yes" fork="yes">
+			<classpath refid="lib.path.ref" />
+			<test name="Test.SampleIETest1" haltonfailure="no" todir="${junit-xml-dir}" >
+				<formatter type="xml"/>
+			</test>
+		</junit>
+	</target>
+
+	<target name="chrome-junit-execution">
+		<junit printsummary="yes" haltonfailure="yes" fork="yes">
+			<classpath refid="lib.path.ref" />
+			<test name="Test.SampleChromeTest" haltonfailure="no" todir="${junit-xml-dir}" >
+				<formatter type="xml"/>
+			</test>
+		</junit>
+	</target>
+
+	<target name="junit-test-suite">
+		<junit printsummary="yes" haltonfailure="yes" fork="yes">
+			<classpath refid="lib.path.ref" />
+			<test name="Test.SampleTestSuite" haltonfailure="no" todir="${junit-xml-dir}" >
+				<formatter type="xml"/>
+			</test>
+		</junit>
+	</target>
+
+  <!-- Ant target to generate html report -->
+  <target name="junit-report">
+    <junitreport todir="${report-dir}/Junit">
+      <fileset dir="${junit-xml-dir}">
+        <include name="**/*.xml" />
+      </fileset>
+      <report format="noframes" todir="${report-dir}/Junit" />
+    </junitreport>
+  </target>
+
+  <target name="all" depends="compile,junit-test-suite,junit-report" />
+</project>

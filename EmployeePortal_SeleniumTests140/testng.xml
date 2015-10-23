@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="EMP_TestSuite">
+  
+  <test name="ChromeTest_LoginUser">
+    <classes>
+      <class name="Test.ChromeTest_LoginUser" />
+    </classes>
+  </test>
+
+<test name="ChromeTest_RegisterUser">
+    <classes>
+      <class name="Test.ChromeTest_RegisterUser" />
+    </classes>
+  </test>
+
+<test name="ChromeTest_LoginNewUser">
+    <classes>
+      <class name="Test.ChromeTest_LoginNewUser" />
+    </classes>
+</suite>
